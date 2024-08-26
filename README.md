@@ -1,2 +1,5 @@
-# config-files
-Configuration files I use
+# Dotfiles
+
+## Font
+
+CaskaydiaMono Nerd Font

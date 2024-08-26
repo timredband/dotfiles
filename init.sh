@@ -8,3 +8,5 @@ config config --local status.showUntrackedFiles no
 git clone --bare git@github.com:timredband/dotfiles.git $HOME/.cfg
 
 config checkout
+
+# to push do config push --set-upstream origin master
