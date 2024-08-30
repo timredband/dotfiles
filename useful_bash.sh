@@ -1,6 +1,10 @@
 export PATH="$HOME/.local/share/bob/nvim-bin:$HOME/.local/bin:$HOME/go/bin:$PATH"
 export GOPATH=$HOME/go
 
+function vimgrep_and_open() {
+  rg --smart-case --vimgrep "$1" | nvim -q -
+}
+
 alias vc='cd ~/.config/nvim && vim'
 alias vim='nvim'
 alias vimdiff="nvim -d"
@@ -10,6 +14,7 @@ alias gs='git switch "$(git branch --all | fzf | sed s,remotes\/origin\/,, | tr 
 alias dev='cd /mnt/c/dev'
 alias rg='rg --smart-case'
 alias vg='rg --vimgrep'
+alias vgg='vimgrep_and_open'
 
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 config config --local status.showUntrackedFiles no
