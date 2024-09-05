@@ -1,0 +1,16 @@
+[user]
+	name = Tim Redband
+	email = tim.redband@dunnhumby.com
+[core]
+	autocrlf = false
+	eol = lf
+[diff]
+    tool = nvimdiff
+[difftool]
+    prompt = false
+[merge]
+    tool = nvim
+[mergetool]
+    prompt = false
+[mergetool "nvim"]
+    cmd = "nvim -d \"$LOCAL\" \"$MERGED\" \"$REMOTE\""
