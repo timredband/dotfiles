@@ -1,10 +1,10 @@
 [user]
-	name = Tim Redband
-	email = tim.redband@dunnhumby.com
+    name = Tim Redband
+    email = tim.redband@dunnhumby.com
 [core]
-	autocrlf = false
+    autocrlf = false
     editor = nvim
-	eol = lf
+    eol = lf
 [diff]
     tool = nvimdiff
 [difftool]
@@ -17,7 +17,7 @@
     cmd = "nvim -d \"$LOCAL\" \"$MERGED\" \"$REMOTE\""
 [fetch]
     all = true
-	prune = true
+    prune = true
     pruneTags = true
 [push]
     autoSetupRemote = true
