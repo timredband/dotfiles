@@ -15,9 +15,9 @@ alias dev='cd /mnt/c/dev'
 alias rg='rg --smart-case'
 alias vg='rg --vimgrep'
 alias vgg='vimgrep_and_open'
-
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
-config config --local status.showUntrackedFiles no
+
+# rg ENV -l  | xargs sed -i 's/ENV/something/' for find and replace
 
 eval "$(fzf --bash)"
 export EDITOR=nvim
