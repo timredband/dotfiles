@@ -3,6 +3,7 @@
 	email = tim.redband@dunnhumby.com
 [core]
 	autocrlf = false
+    editor = nvim
 	eol = lf
 [diff]
     tool = nvimdiff
@@ -14,3 +15,11 @@
     prompt = false
 [mergetool "nvim"]
     cmd = "nvim -d \"$LOCAL\" \"$MERGED\" \"$REMOTE\""
+[fetch]
+    all = true
+	prune = true
+    pruneTags = true
+[push]
+    autoSetupRemote = true
+[pull]
+    rebase = true
