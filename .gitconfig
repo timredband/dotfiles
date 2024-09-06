@@ -1,6 +1,5 @@
-[user]
-    name = Tim Redband
-    email = tim.redband@dunnhumby.com
+[alias]
+    l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --decorate --date=short --color --decorate
 [core]
     autocrlf = false
     editor = nvim
@@ -9,17 +8,20 @@
     tool = nvimdiff
 [difftool]
     prompt = false
+[fetch]
+    all = true
+    prune = true
+    pruneTags = true
 [merge]
     tool = nvim
 [mergetool]
     prompt = false
 [mergetool "nvim"]
     cmd = "nvim -d \"$LOCAL\" \"$MERGED\" \"$REMOTE\""
-[fetch]
-    all = true
-    prune = true
-    pruneTags = true
-[push]
-    autoSetupRemote = true
 [pull]
     rebase = true
+[push]
+    autoSetupRemote = true
+[user]
+    name = Tim Redband
+    email = tim.redband@dunnhumby.com
