@@ -8,6 +8,7 @@
     tool = nvimdiff
 [difftool]
     prompt = false
+    trustExitCode = true
 [fetch]
     all = true
     prune = true
