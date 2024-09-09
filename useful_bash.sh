@@ -16,6 +16,7 @@ alias rg='rg --smart-case'
 alias vg='rg --vimgrep'
 alias vgg='vimgrep_and_open'
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias bat='bat --paging=never'
 
 # rg ENV -l  | xargs sed -i 's/ENV/something/' for find and replace
 
