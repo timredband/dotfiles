@@ -81,4 +81,10 @@ get_latest_version https://api.github.com/repos/MordechaiHadad/bob/releases \
 unzip
 mv ./$FOLDER/bob $DESTINATION && chmod +x $DESTINATION/bob
 
+get_latest_version https://api.github.com/repos/sharkdp/bat/releases \
+  '[.[]| select(.prerelease == false)][0] |
+  "https://github.com/sharkdp/bat/releases/download/"+.name+"/bat-"+.name+"-x86_64-unknown-linux-gnu.tar.gz"'
+extract
+mv ./$FOLDER/bat $DESTINATION
+
 popd
