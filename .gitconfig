@@ -1,6 +1,6 @@
 [alias]
-    s = status
     l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --decorate --date=short --color --decorate
+    s = status
 [core]
     autocrlf = false
     editor = nvim
@@ -25,5 +25,5 @@
 [push]
     autoSetupRemote = true
 [user]
-    name = Tim Redband
     email = tim.redband@dunnhumby.com
+    name = Tim Redband
