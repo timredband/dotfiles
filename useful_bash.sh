@@ -2,7 +2,7 @@ export PATH="$HOME/.local/share/bob/nvim-bin:$HOME/.local/bin:$HOME/go/bin:$PATH
 export GOPATH=$HOME/go
 
 function vimgrep_and_open() {
-  rg --smart-case --vimgrep "$1" | nvim -q -
+  rg -i --vimgrep "$1" | nvim -q -
 }
 
 alias vc='cd ~/.config/nvim && vim'
@@ -12,13 +12,14 @@ alias kx='SHELL= kubectx'
 alias ks='SHELL= kubens'
 alias gs='git switch "$(git branch --all | fzf | sed s,remotes\/origin\/,, | tr -d '[:space:]')"'
 alias dev='cd /mnt/c/dev'
-alias rg='rg --smart-case'
-alias vg='rg --vimgrep'
+alias rg='rg -i'
+alias vg='rg -i --vimgrep'
 alias vgg='vimgrep_and_open'
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias bat='bat --paging=never'
 
 # rg ENV -l  | xargs sed -i 's/ENV/something/' for find and replace
+# rg -p foo | less -R for paging rg results
 
 eval "$(fzf --bash)"
 export EDITOR=nvim
@@ -30,5 +31,3 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" # This loads nvm bash_completion
 
 eval "$(zoxide init bash)"
-
-# rg -p foo | less -R
