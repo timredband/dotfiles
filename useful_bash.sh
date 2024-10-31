@@ -17,6 +17,7 @@ alias vg='rg -i --vimgrep'
 alias vgg='vimgrep_and_open'
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias bat='bat --paging=never'
+alias xclip="xclip -selection c"
 
 # rg ENV -l  | xargs sed -i 's/ENV/something/' for find and replace
 # rg -p foo | less -R for paging rg results
