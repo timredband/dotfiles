@@ -2,7 +2,7 @@ export PATH="$HOME/.local/share/bob/nvim-bin:$HOME/.local/bin:$HOME/go/bin:$PATH
 export GOPATH=$HOME/go
 
 function vimgrep_and_open() {
-  rg -i --vimgrep "$1" | nvim -q -
+  rg -i --vimgrep "$@" | nvim -q -
 }
 
 alias vc='cd ~/.config/nvim && vim'
@@ -21,6 +21,7 @@ alias xclip="xclip -selection c"
 
 # rg ENV -l  | xargs sed -i 's/ENV/something/' for find and replace
 # rg -p foo | less -R for paging rg results
+# rg --hidden --glob '!.git' --glob '!.vs' 2.7.3 for including hidden files with ignored globs
 
 eval "$(fzf --bash)"
 export EDITOR=nvim
