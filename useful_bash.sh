@@ -5,6 +5,11 @@ function vimgrep_and_open() {
   rg -i --vimgrep "$@" | nvim -q -
 }
 
+function replace_rg_with_vg_and_open() {
+  replaced=$(history 2 | head -n 1 | sed 's/[[:space:]]*[0-9]*[[:space:]]*rg/vg/')
+  eval $replaced | nvim -q -
+}
+
 alias vc='cd ~/.config/nvim && vim'
 alias vim='nvim'
 alias vimdiff="nvim -d"
@@ -15,6 +20,7 @@ alias dev='cd /mnt/c/dev'
 alias rg='rg -i'
 alias vg='rg -i --vimgrep'
 alias vgg='vimgrep_and_open'
+alias rr='replace_rg_with_vg_and_open'
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias bat='bat --paging=never'
 alias xclip="xclip -selection c"
