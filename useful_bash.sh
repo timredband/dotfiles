@@ -27,7 +27,7 @@ alias xclip="xclip -selection c"
 
 # rg ENV -l  | xargs sed -i 's/ENV/something/' for find and replace
 # rg -p foo | less -R for paging rg results
-# rg --hidden --glob '!.git' --glob '!.vs' 2.7.3 for including hidden files with ignored globs
+# rg --hidden --glob '!.git' --glob '!.vs' --glob '!vendor' 2.7.3 for including hidden files with ignored globs
 
 eval "$(fzf --bash)"
 export EDITOR=nvim
