@@ -18,6 +18,7 @@ alias ks='SHELL= kubens'
 alias gs='git switch "$(git branch --all | fzf | sed s,remotes\/origin\/,, | tr -d '[:space:]')"'
 alias dev='cd /mnt/c/dev'
 alias rg='rg -i'
+alias rgh="rg -i --hidden --glob '!.git' --glob '!.vs' --glob '!vendor' --glob '!.bin' --glob '!node_modules' --glob '!package-lock.json'"
 alias vg='rg -i --vimgrep'
 alias vgg='vimgrep_and_open'
 alias rr='replace_rg_with_vg_and_open'
@@ -28,6 +29,7 @@ alias xclip="xclip -selection c"
 # rg ENV -l  | xargs sed -i 's/ENV/something/' for find and replace
 # rg -p foo | less -R for paging rg results
 # rg --hidden --glob '!.git' --glob '!.vs' --glob '!vendor' 2.7.3 for including hidden files with ignored globs
+# rg --hidden --glob '!.git' --glob '!.vs' --glob '!vendor' --glob '!.bin' --glob '!node_modules' 2.7.3 for including hidden files with ignored globs
 
 eval "$(fzf --bash)"
 export EDITOR=nvim
