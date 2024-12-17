@@ -2,12 +2,20 @@ export PATH="$HOME/.local/share/bob/nvim-bin:$HOME/.local/bin:$HOME/go/bin:$PATH
 export GOPATH=$HOME/go
 
 function vimgrep_and_open() {
+  echo "$@"
+  echo "hi"
   rg -i --vimgrep "$@" | nvim -q -
 }
 
 function replace_rg_with_vg_and_open() {
   replaced=$(history 2 | head -n 1 | sed 's/[[:space:]]*[0-9]*[[:space:]]*rg/vg/')
   eval $replaced | nvim -q -
+}
+
+function send_fd_results_to_quickfix_and_open() {
+  command=$(history 2 | head -n 1 | sed 's,[[:space:]]*[0-9]*[[:space:]]*,,')
+  quickfix_formatted_command="nvim -q <($command --format {}:1:1:{/})"
+  eval $quickfix_formatted_command
 }
 
 alias vc='cd ~/.config/nvim && vim'
@@ -25,6 +33,8 @@ alias rr='replace_rg_with_vg_and_open'
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias bat='bat --paging=never'
 alias xclip="xclip -selection c"
+alias ff='send_fd_results_to_quickfix_and_open'
+alias fdh='fd --hidden'
 
 # rg ENV -l  | xargs sed -i 's/ENV/something/' for find and replace
 # rg -p foo | less -R for paging rg results
