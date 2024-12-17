@@ -35,6 +35,7 @@ alias bat='bat --paging=never'
 alias xclip="xclip -selection c"
 alias ff='send_fd_results_to_quickfix_and_open'
 alias fdh='fd --hidden'
+alias vf='fd --format {}:1:1:{/}'
 
 # rg ENV -l  | xargs sed -i 's/ENV/something/' for find and replace
 # rg -p foo | less -R for paging rg results
