@@ -87,4 +87,7 @@ get_latest_version https://api.github.com/repos/sharkdp/bat/releases \
 extract
 mv ./$FOLDER/bat $DESTINATION
 
+# install lazydocker
+curl https://raw.githubusercontent.com/jesseduffield/lazydocker/master/scripts/install_update_linux.sh | bash
+
 popd
