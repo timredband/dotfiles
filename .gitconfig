@@ -2,11 +2,19 @@
     l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --decorate --date=short --color --decorate
     p = pull
     s = status
+[branch]
+    sort = -committerdate
+[column]
+    ui = auto
 [core]
     autocrlf = false
     editor = nvim
     eol = lf
 [diff]
+    algorithm = histogram
+    colorMoved = plain
+    mnemonicPrefix = true
+    renames = true
     tool = nvimdiff
 [difftool]
     prompt = false
@@ -16,6 +24,7 @@
     prune = true
     pruneTags = true
 [merge]
+    conflictstyle = zdiff3
     tool = nvim
 [mergetool]
     prompt = false
@@ -25,6 +34,13 @@
     rebase = true
 [push]
     autoSetupRemote = true
+[rebase]
+    updateRefs = true
+[rerere]
+    autoupdate = true
+    enabled = true
+[tag]
+    sort = version:refname
 [user]
     email = tim.redband@dunnhumby.com
     name = Tim Redband
