@@ -1,0 +1,553 @@
+ebgngr neenl
+uggcf://yrrgpbqr.pbz/ceboyrzf/ebgngr-neenl/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+    - qb guerr erirefrf
+    - erirefr ragver neenl 0, a - 1
+    - erirefr 0, x - 1
+    - erirefr x, a - 1
+    - bgure gevpx vf gur ahzore bs zbirf vf x % yratgu bs neenl
+
+orfg gvzr gb ohl naq fryy fgbpx
+uggcf://yrrgpbqr.pbz/ceboyrzf/orfg-gvzr-gb-ohl-naq-fryy-fgbpx/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+    -fyvqvat jvaqbj
+
+ovanel gerr vaqrkrf
+* vs vaqrk(cnerag) = A, vaqrk(yrsg puvyq) = 2*A+1
+* vs vaqrk(cnerag) = A, vaqrk(evtug puvyq) = 2*A+2
+* vs vaqrk(puvyq) = A, vaqrk(cnerag) = (A-1)/2 (vagrtre qvivfvba jvgu gehapngvba)
+- yrnearq gung gb urncvsl na neenl arrq gb fgneg sebz gur ynfg aba-yrns abqr ((vaqrk.yratgu - 1) / 2 sybberq) naq gura qrperzrag ol bar rnpu gvzr naq xrrc urncvslvat rnpu vaqvpr
+- rnfvrfg jnl gb urncvsl na vaqrk vf whfg svaq gur ynetrfg inyr nf gur ebbg/yrsg/evtug vaqrk naq gura vs gur ynetrfg vaqrk vf abg gur ebbg fjnc ebbg naq ynetrfg gura pnyy urncvsl ba ynetrfg vaqrk fb fhogerr trgf urncvsvrq cebcreyl
+
+ovanel gerr genirefnyf
+- QSF
+    - va beqre -- qb yrsg gura abqr gura evtug. tbbq sbe trggvat aba-qrpernfvat beqre va OFG
+    - cer beqre -- tbbq sbe pbclvat -- qb abqr gura yrsg gura evtug
+    - cbfg beqre -- tbbq sbe qryrgvba -- guvf bar ivfvg abqr ynfg fb qb yrsg gura evtug gura abqr.
+- OSF
+    - yriry beqre
+- obhaqnel genirefny
+- qvntbany genirefny
+
+dhrhrf
+- vzcyrzragvat pvephyne dhrhr
+- uggcf://jro.fgnasbeq.rqh/pynff/nepuvir/pf/pf106o/pf106o.1134/unaqbhgf/36-VzcyrzragvatDhrhrf.cqs
+
+ovanel frnepu gerrf
+- erzrzore gur orarsvgf vf dhvpxre erzbiny
+- gel gb vzcyrzrag n frys onynapvat bar naq vafreg/qryrgvba
+
+101. Flzzrgevp Gerr
+uggcf://yrrgpbqr.pbz/ceboyrzf/flzzrgevp-gerr/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fbyirq jvgu n OSF
+- gurer'f n orggre fbyhgvba jvgu QSF pbzcnevat yrsg fhogerr jvgu evtug fhogerr
+- fubhyq pbzr onpx gb guvf bar naq gel gb svther bhg gur QSF fbyhgvba
+
+112. Cngu Fhz
+uggcf://yrrgpbqr.pbz/ceboyrzf/cngu-fhz/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+
+28. Svaq gur Vaqrk bs gur Svefg Bppheerapr va n Fgevat
+uggcf://yrrgpbqr.pbz/ceboyrzf/svaq-gur-vaqrk-bs-gur-svefg-bppheerapr-va-n-fgevat/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+
+200. Ahzore bs Vfynaqf
+uggcf://yrrgpbqr.pbz/ceboyrzf/ahzore-bs-vfynaqf/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- QSF gb erznex gur ivfvgrq nf jngre naq gura vapernfr pbhagre rnpu gbc yriry QSF pnyy
+
+108. Pbaireg Fbegrq Neenl gb Ovanel Frnepu Gerr
+uggcf://yrrgpbqr.pbz/ceboyrzf/pbaireg-fbegrq-neenl-gb-ovanel-frnepu-gerr/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- xrrc svaqvat zvq naq ohvyq yrsg naq evtug sebz gurer
+
+530. Zvavzhz Nofbyhgr Qvssrerapr va OFG
+uggcf://yrrgpbqr.pbz/ceboyrzf/zvavzhz-nofbyhgr-qvssrerapr-va-ofg/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- guvf bar vf rnfl vs xabj gung lbh whfg qb na vabeqre genirefny naq xrrc genpx bs cerivbhf gb pnyphyngr gur zva
+
+67. Nqq Ovanel
+uggcf://yrrgpbqr.pbz/ceboyrzf/nqq-ovanel/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- yrnearq qvssrerapr orgjrra >>> naq >>
+-- >>> yrsg cnqf jvgu 0
+-- >> xrrcf gur fvta ovg
+- gevpx urer vf gung gur gbgny vf boi n + o + pneel naq gura qb pune bss gung
+- fb nqq gbgny % 2
+- naq gura pneel vf whfg gur sybbe bs gbgny // 2
+
+238. Cebqhpg bs Neenl Rkprcg Frys
+uggcf://yrrgpbqr.pbz/ceboyrzf/cebqhpg-bs-neenl-rkprcg-frys/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- pnyphyngr sbejneqf naq onpxjneqf va gjb cnffrf
+
+21. Zretr Gjb Fbegrq Yvfgf
+uggcf://yrrgpbqr.pbz/ceboyrzf/zretr-gjb-fbegrq-yvfgf/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+* fbyirq ohg pbhyq or jnl pyrnare
+* hfr gur qhzzl abqr == gnvy abqr gb vavgvnyvmr
+
+219. Pbagnvaf Qhcyvpngr VV
+uggcf://yrrgpbqr.pbz/ceboyrzf/pbagnvaf-qhcyvpngr-vv/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fbyirq ohg erqb
+
+69. Fdeg(k)
+uggcf://yrrgpbqr.pbz/ceboyrzf/fdegk/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fbyirq jvgu whfg vgrengvat 0..a naq purpxvat rnpu fdhner hagvy vg jnf terngre
+- gurer vf n orggre fbyhgvba jurer lbh qb n ovanel frnepu ba gur inyhrf. Gel fbyivat vg jvgu guvf fbyhgvba arkg gvzr.
+
+148. Fbeg Yvfg
+uggcf://yrrgpbqr.pbz/ceboyrzf/fbeg-yvfg/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- yrffbaf yrnearq
+- - fybj naq snfg abqrf gb svaq zvq cbvag
+- - obgu fybj naq snfg fgneg ng svefg abqr
+- - jura svaqvat zvq cbvag yrsg naq evtug pna erghea fnzr ohg gura frg evtug gb evtug.arkg naq pyrne bhg bt evtug gb ahyy
+- - fybj zbirf bar abqr ng n gvzr, snfg zbirf gjb abqrf ng n gvzr
+- - zretr fbeg vg
+
+53. Znkvzhz Fhoneenl
+uggcf://yrrgpbqr.pbz/ceboyrzf/znkvzhz-fhoneenl/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- xrrc n znk birenyy naq gura sbe rnpu ryrzrag pbzcner gur ryrzrag gb gur (pheerag + ryrzrag) naq juvpu rire bar vf terngre nffvta gb pheerag
+- orfg vf whfg znk bs znk naq pheerag rnpu vgrengvba
+- gur ernfba vg jbexf vf orpnhfr  vs lbh trg na ryrzrag gung vf terngre guna gur ehaavat gbgny lbh whfg nffvta gur pheerag gb gung ryrzrag, bgurejvfr gur ehaavat gbgny pbagvahrf
+
+152. Znkvzhz Cebqhpg Fhoneenl
+uggcf://yrrgpbqr.pbz/ceboyrzf/znkvzhz-cebqhpg-fhoneenl/qrfpevcgvba/
+- fvzvyne gb znkvzhz fhoneenl ohg arrq gb znvagnva n pheerag zva nf jryy nf gur pheerag znk
+- arrq ybtvp gb pnyphyngr gur zva naq znk onfrq ba gur pheerag zva naq pheerag znk nf vg'f syvccrq juvpu bar lbh pnyphyngr bss vs gur ryrzrag vf artngvir be cbfgvir
+- mreb ybtvp gb erfrg gur pheerag gb bar vs vg'f mreb
+
+55. Whzc Tnzr
+- terrql fbyhgvba fgnegvat sebz raq naq zbivat gur tbny cbfg onpxjneqf
+- xvaqn fbyirq vg ohg fgvyy arrq gb pbzr onpx gb guvf bar orpnhfr fgvyy fgehttyrq
+
+36. Inyvq Fhqbxh
+- yrnearq gb or pnershy jvgu fgnegvat vagrtref abg hfvat gur nethzragf naq er-nffvtavat
+
+125. Inyvq Cnyvaqebzr
+uggcf://yrrgpbqr.pbz/ceboyrzf/inyvq-cnyvaqebzr/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fbyirq ohg znlor oehfu hc ba ertrk?
+
+637. Nirentr bs Yriryf va Ovanel Gerr
+uggcf://yrrgpbqr.pbz/ceboyrzf/nirentr-bs-yriryf-va-ovanel-gerr/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- oernqgu svefg frnepu vf vzcyrzragrq jvgu n dhrhr. Sbe QSF qba'g arrq gung. Nyfb vzcyrzragrq abg hfvat erphefvba hayvxr QSF.
+- phg bss gur cebprffvat bs rnpu yriry ol pnyphyngvat fvmr bs BT dhrhr ng rnpu yriry fb jura nqqvat gb vg lbh qba'g cebprff gur arj vgrzf nqqrq va gur yriry hagvy trg gb arj yriry
+- yrnearq neenl zrgubq fuvsg() hfrq sbe dhrhrf gb erzbir svefg ryrzrag bs neenl fvzvyne gb ubj cbc() erzbirf ynfg ryrzrag sbe fgnpxf
+
+35. Frnepu Vafreg Cbfvgvba
+uggcf://yrrgpbqr.pbz/ceboyrzf/frnepu-vafreg-cbfvgvba/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- yrnearq ovanel frnepu zvtug or rnfvre whfg nf n juvyr ybbc bs yrsg <= evtug
+- zvqcbvag sbezhyn vf (evtug + yrsg) / 2 BE vs jnag gb nibvq biresybj vg'f yrsg + (evtug - yrsg) // 2
+- vs abg sbhaq vg'f whfg gur yrsg cbvagre
+
+130. Fheebhaqrq Ertvbaf
+uggcf://yrrgpbqr.pbz/ceboyrzf/fheebhaqrq-ertvbaf/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fgneg sebz rqtrf naq QSF sebz gubfr znexvat B'f nf F'f naq gura tb onpx guebhtu naq pncgher nyy erznvavat B'f
+
+98. Inyvqngr Ovanel Frnepu Gerr
+uggcf://yrrgpbqr.pbz/ceboyrzf/inyvqngr-ovanel-frnepu-gerr/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- zl fbyhgvba jnf B(a^2) :(
+
+70. Pyvzovat Fgnvef
+uggcf://yrrgpbqr.pbz/ceboyrzf/pyvzovat-fgnvef/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- arrq gb trg orggre ng oernxvat hc n ceboyrz vagb fho ceboyrzf
+- gevpx urer vf fbyivat rnpu fhogerr naq cer-pnyphyngvat gur inyhr fvzvyne gb svobanppv
+- fbyirq vg ohg fgvyy qvqa'g shyyl haqrefgnaq vg
+
+114. Synggra Ovanel Gerr gb Yvaxrq Yvfg
+uggcf://yrrgpbqr.pbz/ceboyrzf/synggra-ovanel-gerr-gb-yvaxrq-yvfg/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fbyirq ohg pna trg n orggre fbyhgvba ol ergheavat gur ynfg abqr guebhtubhg gur nytbevguz vafgrnq bs univat gb pnyphyngr vg rirel gvzr gb pbaarpg gur yrsg naq evtug fvqrf
+
+129. Fhz Ebbg gb Yrns Ahzoref
+uggcf://yrrgpbqr.pbz/ceboyrzf/fhz-ebbg-gb-yrns-ahzoref/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- gel fbyivat guvf bar jvgubhg pbairegvat gb fgevatf
+
+80. Erzbir Qhcyvpngrf sebz Fbegrq Neenl VV
+uggcf://yrrgpbqr.pbz/ceboyrzf/erzbir-qhcyvpngrf-sebz-fbegrq-neenl-vv/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fgvyy arrq gb fbyir
+- hfr zhygvcyr cbvagref naq whfg fgneg svyyvat va gur yrsg fvqr bs gur neenl...rnfl V fubhyq unir tbggra guvf zlfrys
+
+230. Xgu Fznyyrfg Ryrzrag va n OFG
+uggcf://yrrgpbqr.pbz/ceboyrzf/xgu-fznyyrfg-ryrzrag-va-n-ofg/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fbyirq vg ohg pna qb orggre ol hfvat n fgnpx, naq rirel gvzr frr n ahyy puvyq cbc sebz gur fgnpx. cbc beqre vf gur va beqre genirefny beqre.
+
+173. Ovanel Frnepu Gerr Vgrengbe
+uggcf://yrrgpbqr.pbz/ceboyrzf/ovanel-frnepu-gerr-vgrengbe/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fbyirq vg ohg pna qb orggre ol hfvat n fgnpx naq gura cbccvat bss vg rnpu pnyy gb arkg()
+- vavgvnyvmr gur fgnpx jvgu gur ebbg naq gura nyy gur yrsg puvyqera
+
+133. Pybar Tencu
+uggcf://yrrgpbqr.pbz/ceboyrzf/pybar-tencu/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- pna qb vg QSF be OSF.
+- V qvq vg OSF
+- whfg znxr n znc bs gur pbcvrf naq rirel gvzr trg gb abqr purpx vs lbh'ir nyernql znqr n pbcl naq vs lrf whfg nffvta gur arvtuobef gb gur pbcl
+
+155. Zva Fgnpx
+uggcf://yrrgpbqr.pbz/ceboyrzf/zva-fgnpx/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- whfg nqq gur zvavzhz ryrzrag jura nqq gb gur fgnpx nf jryy
+
+138. Pbcl Yvfg jvgu Enaqbz Cbvagre
+uggcf://yrrgpbqr.pbz/ceboyrzf/pbcl-yvfg-jvgu-enaqbz-cbvagre/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- yrnearq pna hfr bowrpg nf znc xrl naq pbzcnerf xrl ol ersrerapr
+- jura znxvat pbcvrf nqqrq gb n znc gb frr vs nyernql znqr fvapr xrl vf n ersrerapr jnf rnfl
+
+34. Svaq Svefg naq Ynfg Cbfvgvba bs Ryrzrag va Fbegrq Neenl
+uggcf://yrrgpbqr.pbz/ceboyrzf/svaq-svefg-naq-ynfg-cbfvgvba-bs-ryrzrag-va-fbegrq-neenl/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- ovanel frnepu pnyy gjvpr jvgu n yrsg ovnf naq evtug ovnf gb xrrc tbvat yrsg be evtug va rnpu pnyy ohg fgvyy hfvat ovanel frnepu
+
+274. U-Vaqrk
+uggcf://yrrgpbqr.pbz/ceboyrzf/u-vaqrk/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- V qba'g haqrefgnaq guvf bar ng nyy
+- uvag vf gb fbeg V thrff?
+- V fbegrq vg naq vavgvnyvmrq n znk gb gur yratgu. Naq gura purpx vs gur vaqvpr vf >= znk naq vs vg vf gura xrrc gur znk bgurejvfr frg znk gb gur ryrzrag;
+- gura purpx vs gur znk vf >= v + 1 naq vs vg vf gura hcqngr gur nafjre
+
+215. Xgu Ynetrfg Ryrzrag va na Neenl
+uggcf://yrrgpbqr.pbz/ceboyrzf/xgu-ynetrfg-ryrzrag-va-na-neenl/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- pna qb jvgu urnc naq gura xrrc cbccvat ohg abg orfg fbyhgvba
+- arrq gb yrnea dhvpx fryrpg sbe orfg fbyhgvba
+- yrnearq ubj gb vzcyrzrag n urnc
+- erqb vzcyrzragvat n urnc sbe sbhaq
+- yrrnaerq gung arrq gb vzcyrzrag fvsg hc naq fvsg qbja
+- gevpx bs fvsg qbja vf arrq gb cvpx gur ynetre bs gur puvyqera (znk-urnc) naq gur pbqr urer vf xvaqn tebff
+
+167. Gjb Fhz VV - Vachg Neenl Vf Fbegrq
+uggcf://yrrgpbqr.pbz/ceboyrzf/gjb-fhz-vv-vachg-neenl-vf-fbegrq/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- whfg hfr gjb cbvagref sbe ortvaavat naq raq naq vaperzrag v vs yrff naq qrperzrag w vs terngre
+- V'z onq sbe abg svthevat guvf bhg naq V'yy arire trg n wbo
+
+15. 3Fhz
+uggcf://yrrgpbqr.pbz/ceboyrzf/3fhz/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- gevpx vf fbegvat gura sbe rnpu ryrzrag gura fbyivat gjb fhz
+- uneq cneg vf fxvccvat ryrzragf fb gurer'f ab qhcyvpngrf va gur fbyhgvba frg
+- unir gb fxvc va bhgre ybbc naq gura jura svaq n fbyhgvba xrrc fxvccvat nf jryy
+
+11. Pbagnvare Jvgu Zbfg Jngre
+uggcf://yrrgpbqr.pbz/ceboyrzf/pbagnvare-jvgu-zbfg-jngre/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- hfr gjb cbvagref sebz rnpu raq pnyphyngvat nern rnpu gvzr
+- zbir onfrq ba juvpu bar vf fznyyre
+- vs rdhny gura qbrfa'g znggre juvpu bar lbh zbir (pna rira zbir obgu) - V qba'g ernyyl haqrefgnaq gur zngu urer bs jul guvf vf gur pnfr
+
+14. Ybatrfg Pbzzba Cersvk
+uggcf://yrrgpbqr.pbz/ceboyrzf/ybatrfg-pbzzba-cersvk/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fbyirq ohg V guvax V pna qb orggre ol vafgrnq bs ybbcvat guebhtu gur neenl ybbc guebhtu gur punenpgref va gur svefg ryrzrag fb gung V pna dhvpxyl erghea vs svaq bar abg zngpuvat
+
+17. Yrggre Pbzovangvbaf bs n Cubar Ahzore
+uggcf://yrrgpbqr.pbz/ceboyrzf/yrggre-pbzovangvbaf-bs-n-cubar-ahzore/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- tb onpx naq fbyir guvf bar ntnva. Znlor n orggre fbyhgvba ol cnffvat va gur ohvyg fgevat?
+
+77. Pbzovangvbaf
+uggcf://yrrgpbqr.pbz/ceboyrzf/pbzovangvbaf/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- guvf vf oynpx zntvp
+- arrq gb orggre haqrefgnaq ubj onpxgenpxvat jbexf gb znxr ryrtnag fbyhgvbaf
+- fbzr gevpx jvgu cbccvat nsgre pnyy gb onpxgenpx?
+- gur cbccvat vf whfg erzbivat gur ynfg qrpvfvba vs vg qvqa'g jbex bhg - be va guvf fbyhgvba znlor vg qvq?
+- a!/(e!(a−e)!) vf pbzovangvbaf sbezhyn sbe fbzrguvat yvxr 4 pubbfr 2 juvpu vf ubj znal gjb ahzore pbzovangvbaf sebz 1 gb 4 = 1,2/1,3/1,4/2,3/2,4/3,4 = 24/4 = 6
+- crezhgngvbaf vf jura beqre znggref - sbezhyn vf a!/(a−e)! fb C(4,2) = 24/2 = 12
+
+236. Ybjrfg Pbzzba Naprfgbe bs n Ovanel Gerr
+uggcf://yrrgpbqr.pbz/ceboyrzf/ybjrfg-pbzzba-naprfgbe-bs-n-ovanel-gerr/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fbyirq ohg zl fbyhgvba vf genfu
+- gevpx vf gb svaq bar naq gura frnepu gur evtug fvqr. Vs svaq gur bgure ba evtug vg'f gur ebbg. Ryfr lbh frnepu sebz gur yrsg?
+
+105. Pbafgehpg Ovanel Gerr sebz Cerbeqre naq Vabeqre Genirefny
+uggcf://yrrgpbqr.pbz/ceboyrzf/pbafgehpg-ovanel-gerr-sebz-cerbeqre-naq-vabeqre-genirefny/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fbyirq ohg gbbx zr sberire
+- gevpx vf gb xrrc fcyvggvat gur va beqre neenl ol gur arkg cer-beqre ryrzrag gura svyyvat yrsg naq evtug onfrq ba gung
+
+51. A-Dhrraf
+uggcf://yrrgpbqr.pbz/ceboyrzf/a-dhrraf/qrfpevcgvba/
+- fbyirq ohg zl fbyhgvba vf gbb oehgr sbepr
+- pna qb n gevpx ol xrrcvat genpx bs pby/cbfvgvir qvntbany/artngvir qvntbany frgf gb zber rnfvyl purpx vs pna cynpr n dhrra
+- pna xrrc genpx bs qvntbany frgf jvgu (ebj-pby) vf nyjnlf gur fnzr va gur artngvir qvntbany
+- arrq gb jbex bhg gur zngu sbe cbfvgvir qvntbany
+
+380. Vafreg Qryrgr TrgEnaqbz B(1)
+uggcf://yrrgpbqr.pbz/ceboyrzf/vafreg-qryrgr-trgenaqbz-b1/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- obgpurq guvf bar. arrq gb znvagnva n unfu znc naq neenl jurer znc vf znccrq gb neenl vaqrk naq gura jura erzbir naq ryrzrag gnxr gur ynfg va gur neenl naq cynpr vg va gur vaqrk gura cbc ynfg
+- fbyirq vg
+- yrnearq sbe svaqvat enaqbz va neenl vg'f Zngu.sybbe(Zngu.enaqbz() * neenl.yratgu) orpnhfr enaqbz() ergheaf fbzrguvat 0 -> .9999999999
+
+238. Cebqhpg bs Neenl Rkprcg Frys
+uggcf://yrrgpbqr.pbz/ceboyrzf/cebqhpg-bs-neenl-rkprcg-frys/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fgvyy arrq gb fbyir jvgubhg hfvat rkgen fcnpr
+- gevpx vf tbvat sebz rnpu fvqr bapr naq pnyphyngvat gur ehaavat cebqhpgf sebz rnpu fvqr gura nafjre vf whfg zhygvcylvat gur gjb gbtrgure
+
+134. Tnf Fgngvba
+uggcf://yrrgpbqr.pbz/ceboyrzf/tnf-fgngvba/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- zl fbyhgvba gvzrf bhg
+- fbyirq. gevpx vf vs na vaqrk qbrfa'g jbex gura abguvat orsber vg jbexf rvgure fb qba'g arrq gb purpx rirel fgneg.
+- v thrff gurer'f na terrql fbyhgvba jurer lbh svefg znxr fher gurer'f zber gbgny tnf guna pbfg naq gura gel rnpu bar naq gura sebz na vaqrk vs pna znxr vg gb raq xabj gung'f gur fbyhgvba fvapr jr xabj n fbyhgvba rkvfgf onfrq ba gur tnf >= pbfg naq gurer rkvfgf bayl bar fbyhgvba.
+
+30. Fhofgevat jvgu Pbapngrangvba bs Nyy Jbeqf
+uggcf://yrrgpbqr.pbz/ceboyrzf/fhofgevat-jvgu-pbapngrangvba-bs-nyy-jbeqf/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- zl fbyhgvba gvzrf bhg
+- gevrq pnyphyngvat nyy crezhgngvbaf svefg ohg qba'g guvax gung'yy jbex
+
+48. Ebgngr Vzntr
+uggcf://yrrgpbqr.pbz/ceboyrzf/ebgngr-vzntr/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fgehttyvat uneq ba guvf bar
+- V thrff gur gevpx vf gb zbir bar ng n gvzr sbe rnpu vaqvpr naq bayl fnir bar grzc inevnoyr rnpu vaqvpr
+- fbyirq ohg guvf bar shpxrq zr hc
+- arkg nggrzcg gel frggvat yrsg naq evtug va bhgre ybbc naq gura va gur vaare ybbc frg gbc naq obggbz inevnoyrf. Sebz urer arrq gb frg gur bssfrgf onfrq ba vaare ybbc pbhagre inyhr.
+- V qhaab V ybbxrq ng gur arrgpbqr nafjre naq vg'f fgvyy cerggl penml
+
+73. Frg Zngevk Mrebrf
+uggcf://yrrgpbqr.pbz/ceboyrzf/frg-zngevk-mrebrf/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fbyirq vg ohg zl fbyhgvba vf onq V guvax
+- qvq gevpx ol znexvat gur BT mrebrf va n svefg cnff gura frggvat nyy vg'f arvtuobef gb mrebrf gura tbvat onpx gueh ntnva naq znexvat BT mrebrf nf mreb
+
+103. Ovanel Gerr Mvtmnt Yriry Beqre Genirefny
+uggcf://yrrgpbqr.pbz/ceboyrzf/ovanel-gerr-mvtmnt-yriry-beqre-genirefny/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- whfg qvq erthyne OSF naq gura sbe rirel bgure yriry whfg chfurq gur yriry.erirefr() gb gur erfhyg. Abg fher vs guvf nafjre vf va gur fcvevg bs gur dhrfgvba gubhtu?
+
+22. Trarengr Cneragurfrf
+uggcf://yrrgpbqr.pbz/ceboyrzf/trarengr-cneragurfrf/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- v fbyirq vg jvgubhg ybbxvat hc gur nafjre ohg V unq gb eha gur pbqr n ybg gb svther bhg gur ybtvp reebef
+- gevpx V sbhaq jnf whfg gel n "(" naq ")" rnpu yriry jvgu ab ybbc. Gura vs gurer vf nalguvat yrsg va gur fgnpx ba rnpu yriry nqq n ")".
+- gura unir gb er-nqq gur "(" gb gur fgnpx orsber ergheavat
+
+502. VCB
+uggcf://yrrgpbqr.pbz/ceboyrzf/vcb/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fbyirq
+- fb perngrq n znk urnc sbe rnpu havdhr inyhr bs pncvgny.
+- Gura pbzovarq rnpu urnc jurer pncvgny vf <= gbgny pncvgny vagb bar sbe snfgre ybbxhc.
+- Unir gb cvpx sebz gbc bs urnc fvapr gurl ner pbzovarq.
+- gevpx sbe zrzbel jnf abg pbclvat n urnc vagb n arj neenl jura pbzovavat sbe gur svefg urnc. Pna whfg erhfr gur bar gurer naq nqq gb vg.
+- zl fbyhgvba qvq hfr n ybg bs zrzbel. Znlor n orggre jnl gb gung. Jura erivfvg ybbx gb hfvat yrff zrzbel cebonoyl.
+- *** V guvax V pna znxr guvf orggre ol bayl urncvslvat gur pncvgnyf V pna bevtvanyyl cvpx sebz naq vtabevat gur erfg hagvy V pna cvpx sebz gurz. ***
+- yrnearq gung gb urncvsl na neenl arrq gb fgneg sebz gur ynfg aba-yrns abqr naq gura qrperzrag ol bar rnpu gvzr naq xrrc urncvslvat rnpu vaqvpr
+
+6. Mvtmnt Pbairefvba
+uggcf://yrrgpbqr.pbz/ceboyrzf/mvtmnt-pbairefvba/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fbyirq ohg zl fbyhgvba vf genfu
+- arkg gvzr gel whfg znxvat gur ebjf naq gura whfg xrrc nqqvat gb rnpu ebj nf vgrengr gur fgevat. Xabj juvpu ebj orpnhfr pna fgvyy genpx hc naq qbja. Gura wbva nyy gbtrgure.
+
+68. Grkg Whfgvsvpngvba
+uggcf://yrrgpbqr.pbz/ceboyrzf/grkg-whfgvsvpngvba/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fbyirq ohg unq gb eha zl fbyhgvba znal gvzrf.
+
+207. Pbhefr Fpurqhyr
+uggcf://yrrgpbqr.pbz/ceboyrzf/pbhefr-fpurqhyr/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fbyirq ohg zl fbyhgvba vf genfuuuuu
+- abg fher jul orpnhfr vg'f cerggl zhpu gur arrgpbqr fbyhgvba
+- znlor gurer'f n fbyhgvba urer jvgu gbcbybtvpny fbeg?
+- jura pbzr onpx gb guvf bar jbex ba vzcyrzragvat n gbcb fbeg fvapr V'ir arire jevggra bar orsber
+
+45. Whzc Tnzr VV
+uggcf://yrrgpbqr.pbz/ceboyrzf/whzc-tnzr-vv/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fbyirq vg ohg zl fbyhgvba abg gung tbbq
+- V jrag onpxjneqf naq zbqvsvrq gur neenl nf V jrag jvgu gur zvavzhz rnpu gvzr ohg vg'f xvaqn a^2vfu
+- gurer vf n orggre fbyhgvba jvgu qbvat n OSF sebz gur fgneg naq gura svaqvat gur zva/znk vaqrk lbh pna trg gb ng rnpu yriry naq gung orpbzrf gur arkg yriry. Rnpu yriry vf whfg n fgrc naq vf gur nafjre.
+- tb onpx naq pbqr guvf bar ntnva jvgu gur OSF fbyhgvba
+
+49. Tebhc Nantenzf
+uggcf://yrrgpbqr.pbz/ceboyrzf/tebhc-nantenzf/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fbyirq vg ol fbegvat naq gura hfvat gur fbegrq xrl va gur unfu znc
+- gurer'f n orggre fbyhgvba ol znxvat gur xrl na neenl 0-25 bs gur punenpgref naq gura sbe rnpu fgevat pnyphyngvat gur xrl onfrq ba gung
+- gel fbyivat guvf bar ntnva jvgu gur bcgvzny fbyhgvba
+
+128. Ybatrfg Pbafrphgvir Frdhrapr
+uggcf://yrrgpbqr.pbz/ceboyrzf/ybatrfg-pbafrphgvir-frdhrapr/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- v fbyirq vg hfvat n znc bs ahzore gb n enatr naq gura funerq gur enatr npebff nyy ahzoref. V qba'g guvax vg'f gehyl B(a) gubhtu fvapr V unq gb ybbc guebhtu n ahpu bs ahzoref gb frg gur fnzr neenl.
+- gurer vf na njrfbzr fbyhgvba jurer lbh pbaireg fgnegvat neenl gb frg naq gura purpx nyy yrsg arvtuobef gb trg nyy enatr fgnegf. gura ybbc guebhtu rnpu enatr fgneg gb trg gur ovttrfg bar.
+
+212. Jbeq Frnepu VV
+uggcf://yrrgpbqr.pbz/ceboyrzf/jbeq-frnepu-vv/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- jnfa'g noyr gb fbyir guvf bar
+- gevrq n QSF jvgu na vavgvny znc bs fgnegvat pbbeqvangrf sbe rnpu yrggre ohg fgvyy gvzrq bhg
+- zhfg or n gevr fbyhgvba ohg pbhyqa'g svther vg bhg
+
+56. Zretr Vagreinyf
+uggcf://yrrgpbqr.pbz/ceboyrzf/zretr-vagreinyf/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fbyirq guvf bar hfvat n znc bs vag gb vagreinyf naq gura frggvat nyy vagf gb gur fnzr vagreiny naq gura perngvat n frg sebz gur inyhrf
+- zl fbyhgvba jbexf ohg V'z fher gurer'f n orggre bar
+- fbyirq ntnva ol svefg fbegvat gur vachg naq gura purpxvat sbe rnpu ryrzrag vs vg'f cneg bs gur cerivbhf enatr. Vs vg vf gura frg gur cerivbhf gb gur arj enatr, ryfr cerivbhf enatr gb erfhyg. Guvf fbyhgvba nyfb jnf bayl gbc 50% fb zhfg nyfb or n orggre bar guna guvf gbb. Anu guvf vf arrgpbqr fbyhgvba fb cebonoyl svar.
+- gevpx urer vf whfg nqq gur svefg ryrzrag gb gur erfhyg naq gura pbzcner rnpu ryrzrag gb gur raq bs erfhyg naq zbqvslvat vafgrnq bs xrrcvat genpx bs n cerivbhf inevnoyr
+
+57. Vafreg Vagreiny
+uggcf://yrrgpbqr.pbz/ceboyrzf/vafreg-vagreiny/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fbyirq guvf bar ol whfg nccraqvat gur arj vagreiny gb gur raq naq gura fbegvat naq fbyivat vg rknpgyl yvxr zretr vagreinyf
+- yrnearq gb svaq bireync frr vs raq vf yrff guna fgneg (vs abg gura qbrfa'g pbzr orsber) naq vs fgneg vf terngre guna raq (vs abg gura qbrfa'g pbzr nsgre) naq gura vs arvgure vf gehr gnxr gur fgneg = Zva(obgu fgnegf) naq Znk(obgu raqf)
+- gurer vf n orggre fbyhgvba jurer lbh whfg ybbc guebhtu gur vagreinyf naq purpx vs gur arj vagreiny bireyncf. Vs vg qbrf whfg hcqngr gur arj vagreiny jvgu gur arj enatr naq xrrc vgrengvat. Nf fbba nf vg qbrfa'g bireync lbh nqq gur arj vagreiny cyhf gur erfg bs gur vagreiny neenl fvapr ab bgure vagreinyf jvyy bireync.
+
+86. Cnegvgvba Yvfg
+uggcf://yrrgpbqr.pbz/ceboyrzf/cnegvgvba-yvfg/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fbyirq vg jvgu gjb qhzzl abqrf. n zvaQhzzl naq znkQzzl. Gura frg gur zva Gnvy arkg gb gur znkQhzzl.arkg.
+- unir gb erzrzore gung nsgre gur ybbc arrq gb frg gur gnvy bs gur ynfg abqr gb ahyy. V sbetrg guvf n ybg.
+
+172. Snpgbevny Genvyvat Mrebrf
+uggcf://yrrgpbqr.pbz/ceboyrzf/snpgbevny-genvyvat-mrebrf/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- guvf bar vf fghcvq. Lbh unir gb xabj gur sbezhyn.
+- sbezhyn vf (a/5) + (a/(5^2)) + (a/(5^3))...riraghnyyl bar bs gurfr vf mreb naq gura lbh erghea gur pbhag
+
+50. Cbj(k, a)
+uggcf://yrrgpbqr.pbz/ceboyrzf/cbjk-a/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- gevpx urer vf gung lbh pna tb vg va Ybt(a) gvzr ol qbhoyvat gur vachg naq univat gur rkcbarag
+- zlCbj(2,8) = zlCbj(2*2,4) = zlCbj(4*4, 2) = zlCbj(16*16, 1)
+- vs artngvir qb erghea 1/zlCbj(2,8)
+
+198. Ubhfr Eboore
+uggcf://yrrgpbqr.pbz/ceboyrzf/ubhfr-eboore/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- zl svefg nggrzcg jnf onq. Gevrq znxvat n znc bs enatrf naq vg jnf fhcre fybj.
+- Gurer vf na vgrengvir fbyhgvba jurer lbh pnyphyngr gur erfhyg nf lbh tb. Naq gura vg'f whfg ahzf[v] + erfhyg[v - 2] be vg'f erfhyg[v - 1];
+
+33. Frnepu va Ebgngrq Fbegrq Neenl
+uggcf://yrrgpbqr.pbz/ceboyrzf/frnepu-va-ebgngrq-fbegrq-neenl/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- v fbyirq vg ohg V srry yvxr zl fbyhgvba vfa'g terng. Ybbx hc gur fbyhgvba sbe guvf bar.
+
+150. Rinyhngr Erirefr Cbyvfu Abgngvba
+uggcf://yrrgpbqr.pbz/ceboyrzf/rinyhngr-erirefr-cbyvfu-abgngvba/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- yrnearq nobhg zngu.gehap juvpu whfg qebcf gur qrpvzny
+- yrnearq zngu.sybbe jvyy abg ebhaq gb mreb fb yvxr -.1 jvyy ebhaq gb -1 jvgu gung
+- jvgubhg zngu.gehap jbhyq arrq zngu.sybbe sbe cbfvgvir ahzoref naq zngu.prvy sbe artngvir ahzoref
+
+224. Onfvp Pnyphyngbe
+uggcf://yrrgpbqr.pbz/ceboyrzf/onfvp-pnyphyngbe/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- synvyrq ng guvf bar
+
+162. Svaq Crnx Ryrzrag
+uggcf://yrrgpbqr.pbz/ceboyrzf/svaq-crnx-ryrzrag/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fbyirq ohg abg fher zl fbyhgvba vf bcgvzny. Vapyhqrq gur zvq va rnpu ovannel frnepu naq unq gb qb rkgen ybtvp sbe gjb ryrzragf.
+- v thrff gurer'f n gevpx jurer vs gur arvtuobe vf terngre guna gur zvq gura lbh XABJ gurer'f n fbyhgvba gung qverpgvba naq pna whfg cvpx gung qverpgvba. Guvf bayl jbexf orpnhfr gur fnzr ahzore pna'g nccrne gb vaqvprf va n ebj.
+
+295. Svaq Zrqvna sebz Qngn Fgernz
+uggcf://yrrgpbqr.pbz/ceboyrzf/svaq-zrqvna-sebz-qngn-fgernz/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- zl fbyhgvba vf onq
+- gurer'f n penml fbyhgvba jurer lbh znvagnva gjb qvssrerag urncf naq znxr gur bar unir ryrzragf terngre guna gur bgure juvyr xrrcvat gur fvmrf bs gur urncf jvguva bar gb rnfvyl trg gur zrqvna
+- gel ntnva jvgu gur penml fbyhgvba
+
+399. Rinyhngr Qvivfvba
+uggcf://yrrgpbqr.pbz/ceboyrzf/rinyhngr-qvivfvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- v pbhyqa'g fbyir guvf bar
+- gurer vf n fbyhgvba jurer lbh pna znc gur ahzrengbef gb qrabzvangbef naq ivpr irefn naq ohvyq n tencu sebz vg naq rvgure zhyvgcyl be qvivqr nyy gur rqtrf gb trg na nafjre ohg V qvqa'g ernyyl sbyybj.
+
+64. Zvavzhz Cngu Fhz
+uggcf://yrrgpbqr.pbz/ceboyrzf/zvavzhz-cngu-fhz/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- V tbg n fbyhgvba jvgu QSF ohg gurer vf n orggre qlanzvp fbyhgvba fgnegvat sebz gur raq naq gura sbe rnpu pryy whfg trg gur zva bs gur pryy orybj naq gur pryy gb gur evtug naq xrrc tbvat ebj ol ebj.
+- gel guvf bar ntnva jvgu gur orggre fbyhgvba
+
+139. Jbeq Oernx
+uggcf://yrrgpbqr.pbz/ceboyrzf/jbeq-oernx/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- snvyrq guvf bar
+- gevpx vf gb ybbc guebhtu gur jbeq qvpg naq gel rnpu bar zngpuvat fhofgevatf naq gura purpxvat QC[v + fho] = gehr vs gehr sbe gung cbfvgvba gura xrrc tbvat onpxjneqf gb 0
+- frg QC[-1] = gehr
+- V guvax gur yrffba urer vf arrq gb trg orggre ng guvaxvat bs gelvat ceboyrzf fgnegvat sebz gur raq. Vg'f n pbzzba gurzr va gurfr ceboyrzf gb qb gung.
+
+5. Ybatrfg Cnyvaqebzvp Fhofgevat
+uggcf://yrrgpbqr.pbz/ceboyrzf/ybatrfg-cnyvaqebzvp-fhofgevat/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- V fbyirq vg ol tbvat sebz 0, yra-1 naq purpxvat sebz gurer obgu jnlf sbe zngpuvat punenpgref gura purpxvat cnyvaqebzrf
+- gurer'f n pyrire fbyhgvba jurer lbh purpx rnpu punenpgre naq gura xrrc rkcnaqvat bhgjneqf naq svaq ybatrfg cnyvaqebzr jvgu gung pune nf gur pragre juvpu vf snfgre. Rqtr pnfr sbe rira cnyvaqebzrf jurer yrsg = v naq evtug = v + 1 vafgrnq bs v - 1 naq v + 1 sbe bqqf
+
+322. Pbva Punatr
+uggcf://yrrgpbqr.pbz/ceboyrzf/pbva-punatr/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- jnf noyr gb fbyir guvf bar
+- fgnegrq sebz gur raq naq qvq gevpx jurer frg QC neenl gb nzbhag + 1 fb frg gur svavfu yvar bar ybatre nf 0 gura jbexrq onpxjneqf.
+
+97. Vagreyrnivat Fgevat
+uggcf://yrrgpbqr.pbz/ceboyrzf/vagreyrnivat-fgevat/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- V pbhyqa'g svther bhg gur QC fbyhgvba ba zl bja :(
+- gel guvf bar ntnva V thrff. gevpx vf gb fnir vs V'ir gevrq rnpu vaqvpr orsber
+
+433. Zvavzhz Trargvp Zhgngvba
+uggcf://yrrgpbqr.pbz/ceboyrzf/zvavzhz-trargvp-zhgngvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- V fbyirq jvgu n QSF ohg gurer n OSF fbyhgvba jurer lbhe puvyqera ner rnpu zhgngvba gung vf bar njnl. Gel guvf bar arkg.
+
+72. Rqvg Qvfgnapr
+uggcf://yrrgpbqr.pbz/ceboyrzf/rqvg-qvfgnapr/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- V fbyirq vg ohg gurer'f n orggre fbyhgvba jurer lbh hfr n 2Q zngevk naq fgneg sebz gur raq naq jbex onpxjneqf
+
+221. Znkvzny Fdhner
+uggcf://yrrgpbqr.pbz/ceboyrzf/znkvzny-fdhner/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- bayl fbyirq jvgu n ovt uvag.
+- gevpx vf gung n fdhner vf gur zva bs gur evtug arvtuobe, qvntbany qbja arvtuobe, naq qbja arvtuobe naq gura nqq 1. Fb fgneg ng gur obggbz evtug bs gur zngevk naq jbex onpxjneqf.
+
+135. Pnaql
+uggcf://yrrgpbqr.pbz/ceboyrzf/pnaql/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- v fbyirq vg jvgu n gjb cnff nccebnpu yrsg->evtug gura evtug->yrsg.
+- gurer'f na rira orggre fbyhgvba jurer lbh whfg purpx gb yrsg ba svefg cnff gura whfg purpx gb evtug ba frpbaq cnff naq znxr fher gur pbaqvgvba ubyqf ryfr vapernfr ol 1.
+
+42. Genccvat Enva Jngre
+uggcf://yrrgpbqr.pbz/ceboyrzf/genccvat-enva-jngre/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fbyirq vg nsgre trggvat znffvir uvag...vg'f fb rnfl vg'f onq V pbhyqa'g fbyir vg jvgubhg n uvag
+- fb qb gjb cnffrf gb trg znk yrsg bs rnpu vaqrk naq znk evtug bs rnpu vaqrk
+- gura vg'f whfg zva(znkYrsg, znkEvtug) - urvtug[v] jvgu n sybbe bs mreb
+
+30. Fhofgevat jvgu Pbapngrangvba bs Nyy Jbeqf
+uggcf://yrrgpbqr.pbz/ceboyrzf/fhofgevat-jvgu-pbapngrangvba-bs-nyy-jbeqf/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- abg fher V unir gur orfg fbyhgvba
+- fbyirq jvgu n yrsg naq evtug cbvagre
+- gevpx V sbhaq jnf vs evtug qbraf'g zngpu n erznvavat jbeq gura unir gb whfg erfrg obgu cbvagref gb yrsg + 1
+
+76. Zvavzhz Jvaqbj Fhofgevat
+uggcf://yrrgpbqr.pbz/ceboyrzf/zvavzhz-jvaqbj-fhofgevat/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- v fbyirq vg ohg V unq gb xvaqn oehgr sbepr gur pbzcnevfbaf rnpu gvzr
+- orggre fbyhgvba jurer lbh bayl qb pbzcnevfbaf vs lbh nqq n punenpgre lbh pner nobhg juvyr znvagnvat n obby vs unir nyy gur punef lbh arrq
+- fbyir guvf bar ntnva jvgubhg qbvat nyy gur pbzcnevfbaf
+
+127. Jbeq Ynqqre
+uggcf://yrrgpbqr.pbz/ceboyrzf/jbeq-ynqqre/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fbyirq vg yvxr gur zvavzhz trargvp zhgngvba jurer gur OSF vf nyy gur jbeqf bar pune njnl
+- gur arrgpbqr fbyhgvba unf vg jurer lbh trarengr na nqw yvfg jvgu gur cnggreaf -> r.t. uvg -> *vg, u*g, uv* naq gura yngre ba trg gur arvtuobef gung jnl juvpu zvtug or snfgre guna jung V qvq
+
+342. Cbjre bs Sbhe
+uggcf://yrrgpbqr.pbz/ceboyrzf/cbjre-bs-sbhe/qrfpevcgvba/?raiGlcr=qnvyl-dhrfgvba&raiVq=2023-10-23
+- yrnearq n gevpx jurer gb svaq vs n ahzore unf bayl bar ovg qb a & a-1 === 0
+
+909. Fanxrf naq Ynqqref
+uggcf://yrrgpbqr.pbz/ceboyrzf/fanxrf-naq-ynqqref/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- V qba'g trg guvf ceboyrz.
+- V'ir fgehttyrq zber jvgu guvf ceboyrz guna nal bgure ceboyrz.
+- Trggvat gur cbfvgvba vf fb pbashfvat gb zr. Gel bapr ntnva gb haqrefgnaq ubj gung jbexf V thrff.
+- Yrnearq bar guvat gung sbe trggvat juvpu tebhc fbzrguvat vf va gura zngu.sybbe qbrf gung. Fb vs unir gra guvatf va tebhcf bs guerr gura a//3 trgf juvpu tebhc lbh'er va. Hfrshy sbe trggvat ebj.
+- Trggvat gur pbyhza jnf whfg a % obneq.yratgu vs rira. Vs bqq gura shpx nyy y - 1 - pby??
+
+201. Ovgjvfr NAQ bs Ahzoref Enatr
+uggcf://yrrgpbqr.pbz/ceboyrzf/ovgjvfr-naq-bs-ahzoref-enatr/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- fbyirq vg ohg zl fbyhgvba vf yvxr obggbz 5%
+- gevpx V sbhaq jnf bayl arrq gb tb nf sne nf arkg cbjre bs 2 orpnhfr gura vg'f thnenagrrq gb or 0
+- Qba'g xabj ubj gb trg gur fbyhgvba orggre gubhtu
+
+2785. Fbeg Ibjryf va n Fgevat
+uggcf://yrrgpbqr.pbz/ceboyrzf/fbeg-ibjryf-va-n-fgevat/
+- fbyirq vg cerggl fgenvtugsbejneq ol qbvat n fbeg bs gur ibjryf naq gura cbccvat gurz bss vs gur vaqrk jnf n ibjry. Ohg guvf vf B(aybta).
+- orggre vf gb qb n pbhagvat fbeg gb gnxr gur gvzr gb B(a)
+
+815. Ohf Ebhgrf
+uggcf://yrrgpbqr.pbz/ceboyrzf/ohf-ebhgrf/qrfpevcgvba/?raiGlcr=qnvyl-dhrfgvba&raiVq=2023-11-12
+- fbyirq vg ol znxvat n znc bs fgbcf -> ebhgrf
+- gura qvq n OSF fgnegvat jvgu gur fgnegvat fgbc'f ebhgrf
+
+2484. Pbhag Cnyvaqebzvp Fhofrdhraprf
+uggcf://yrrgpbqr.pbz/ceboyrzf/pbhag-cnyvaqebzvp-fhofrdhraprf/qrfpevcgvba/
+- arrq gb pbzr onpx gb guvf bar
+- pna'g svther vg bhg
+
+4. Zrqvna bs Gjb Fbegrq Neenlf
+uggcf://yrrgpbqr.pbz/ceboyrzf/zrqvna-bs-gjb-fbegrq-neenlf/qrfpevcgvba/
+- gerngrq rnpu neenl nf n dhrhr naq xrcg cbccvat gur fznyyrfg hagvy uvg gur zvqqyr
+- gurer'f n fbyhgvba hfvat cnegvgvbaf ohg V qba'g ernyyl trg vg
+
+146. YEH Pnpur
+uggcf://yrrgpbqr.pbz/ceboyrzf/yeh-pnpur/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- xvaq bs haqrefgnaq gur vqrn gung lbh unir n qbhoyr yvaxrq yvfg naq gura n znc bs xrl gb abqr sbe rnfl ybbxhc vs vg rkvfgf.
+- whfg pna'g trg gur bcrengvbaf evtug
+- pbzr onpx gb guvf bar
+
+373. Svaq X Cnvef jvgu Fznyyrfg Fhzf
+uggcf://yrrgpbqr.pbz/ceboyrzf/svaq-x-cnvef-jvgu-fznyyrfg-fhzf/qrfpevcgvba/?raiGlcr=fghql-cyna-i2&raiVq=gbc-vagreivrj-150
+- unir gb fbyir guvf bar hfvat n urnc naq gur gevpx vf nyjnlf nqq gur arvtuobef bs gur vaqrkrf lbh'er ng (v, w + 1) naq (v + 1, w) juvyr xrrcvat n frg bs hfvat vaqrkrf
+
+1685. Fhz bs Nofbyhgr Qvssreraprf va n Fbegrq Neenl
+uggcf://yrrgpbqr.pbz/ceboyrzf/fhz-bs-nofbyhgr-qvssreraprf-va-n-fbegrq-neenl/?raiGlcr=qnvyl-dhrfgvba&raiVq=2023-11-25
+- znffviryl fgehttrq jvgu guvf bar
+- pna fbyir jvgu cer-svk fhz naq cbfg-svk fhz naq gura gnxvat gur yratgu bs gur evtug naq yrsg naq qbvat gur pnyp bss gur pheerag iny naq gung yratgu ohg vg'f pbashfvat
+
+1727. Ynetrfg Fhozngevk Jvgu Erneenatrzragf
+uggcf://yrrgpbqr.pbz/ceboyrzf/ynetrfg-fhozngevk-jvgu-erneenatrzragf/qrfpevcgvba/?raiGlcr=qnvyl-dhrfgvba&raiVq=2023-11-26
+- jnf bayl noyr gb fbyir guvf bar jvgu gur uvag
+- tb gubhtu rnpu pbyhza naq znex gur pbafrpgvir 1f va gur pbyhza
+- tb guebhtu rnpu ebj naq fbeg qrfp gura svther bhg gur nern
+
+1319. Ahzore bs Bcrengvbaf gb Znxr Argjbex Pbaarpgrq
+uggcf://yrrgpbqr.pbz/ceboyrzf/ahzore-bs-bcrengvbaf-gb-znxr-argjbex-pbaarpgrq/qrfpevcgvba/
+- pbhyqa'g fbyir jvgubhg uvag
+- orpbzrf rnfl bapr lbh xabj gur gevpx vf whfg gur ahzore bs vfynaqf nf ybat nf gur pbaarpgvbaf vf a-1.
+- gura vg'f whfg n QSF gb svaq ahzore bs vfynaqf
+
+935. Xavtug Qvnyre
+uggcf://yrrgpbqr.pbz/ceboyrzf/xavtug-qvnyre/?raiGlcr=qnvyl-dhrfgvba&raiVq=2023-11-27
+- fgehttyvat
+- gevrq onpxgenpxvat ohg gvzrf bhg
+- pbhyqa'g fbyir guvf bar
+- fbyhgvba jbexf onpxjneqf fnlf vs ng 0 gura vg'f ubj znal jnlf qvq jr trg gb 4 naq 6 gura gura nqq gubfr naq gura ernffvta gur QC neenl gb nyy gur arj pnyphyngvbaf

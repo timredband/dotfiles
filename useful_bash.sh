@@ -1,9 +1,10 @@
 export PATH="$HOME/.local/share/bob/nvim-bin:$HOME/.local/bin:$HOME/go/bin:$PATH"
 export GOPATH=$HOME/go
 
+# for wsl browser links
+export BROWSER="$HOME/links/chrome.exe"
+
 function vimgrep_and_open() {
-  echo "$@"
-  echo "hi"
   rg -i --vimgrep "$@" | nvim -q -
 }
 
