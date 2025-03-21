@@ -1,0 +1,5 @@
+# check fetch configuration
+git config --local --get-all remote.origin.fetch
+
+# add main to tracking
+git remote set-branches --add origin main
