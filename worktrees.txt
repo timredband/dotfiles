@@ -1,4 +1,0 @@
-# check fetch configuration
-git config --local --get-all remote.origin.fetch
-
-git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
