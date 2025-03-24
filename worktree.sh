@@ -56,10 +56,13 @@ if [[ "$command" == "setup" ]]; then
   default_branch=$(git remote show "$url" | sed -n '/HEAD branch/s/.*: //p' | xargs echo)
   git worktree add ../"$default_branch" "$default_branch"
 
+  cd ../
+
+  echo $default_branch >.gitdefaultbranch
+
   exit 0
 fi
 
-# TODO: allow this to run in the folder without needing to be in one of the git folders
 if [[ "$command" == "add" ]]; then
   branch="$2"
 
@@ -68,20 +71,36 @@ if [[ "$command" == "add" ]]; then
     exit 1
   fi
 
-  if [[ -n "$3" ]]; then
-    source_branch="$3"
-  else
-    # TODO: decide if it's better not to reach out to the internet for this information
-    source_branch=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p' | xargs echo)
-  fi
+  attempts=10
+  while ! [[ -f ".gitdefaultbranch" ]]; do
+    if [[ $attempts -lt 0 ]]; then
+      break
+    fi
 
-  url=$(git config get remote.origin.url)
-  bare_folder="${url##*/}"
-
-  while ! [[ -d "$bare_folder" ]]; do
     cd ../
+    attempts=$((attempts - 1))
   done
 
+  if ! [[ -f ".gitdefaultbranch" ]]; then
+    echo "Error: cannot find .gitdefaultbranch"
+    exit 1
+  fi
+
+  source_branch=$(head -n 1 .gitdefaultbranch)
+
+  if [[ -n "$3" ]]; then
+    source_branch="$3"
+  fi
+
+  # find bare folder
+  fd -td -d1 -1 -q .git
+
+  if [[ $? -eq 1 ]]; then
+    echo "Error: can't find bare folder."
+    exit 1
+  fi
+
+  bare_folder=$(fd -td -d1 -1 .git)
   cd "$bare_folder"
 
   git worktree add -b "$branch" "../$branch" "$source_branch"
