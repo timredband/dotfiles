@@ -21,6 +21,7 @@ function send_fd_results_to_quickfix_and_open() {
 
 function worktree_wrapper() {
   if [[ -z "$1" ]]; then
+    worktree
     return
   fi
 
