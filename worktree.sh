@@ -11,6 +11,7 @@ function usage() {
   echo "  setup url        use URL as repository url. Initialize repository with default worktree"
   echo "  add name source  use NAME as branch name. Add worktree with NAME. Use SOURCE as source branch name (defaults to default branch for repository)"
   echo "  find name        use NAME as worktree name. Print path of worktree if found"
+  echo "  root             Print path of worktree root"
 }
 
 command=""
@@ -20,7 +21,7 @@ if [[ -z "$1" ]]; then
   exit 1
 fi
 
-if [[ -n "$1" && ("$1" == "setup" || "$1" == "add" || "$1" == "find") ]]; then
+if [[ -n "$1" && ("$1" == "setup" || "$1" == "add" || "$1" == "find" || "$1" == "root") ]]; then
   command="$1"
 fi
 
@@ -41,7 +42,7 @@ if [[ "$command" == "setup" ]]; then
   folder="${bare_folder/.git/}"
 
   if [[ -d "$folder" ]]; then
-    echo "Error: directory $folder already exists."
+    echo "Error: directory $folder already exists"
     exit 1
   fi
 
@@ -73,7 +74,7 @@ if [[ "$command" == "add" ]]; then
 
   attempts=10
   while ! [[ -f ".gitdefaultbranch" ]]; do
-    if [[ $attempts -lt 0 ]]; then
+    if [[ $attempts -lt 1 ]]; then
       break
     fi
 
@@ -96,7 +97,7 @@ if [[ "$command" == "add" ]]; then
   fd -td -d1 -1 -q .git
 
   if [[ $? -eq 1 ]]; then
-    echo "Error: can't find bare folder."
+    echo "Error: can't find bare folder"
     exit 1
   fi
 
@@ -117,9 +118,8 @@ if [[ "$command" == "find" ]]; then
   fi
 
   attempts=10
-
   while ! [[ -d "$worktree" ]]; do
-    if [[ $attempts -lt 0 ]]; then
+    if [[ $attempts -lt 1 ]]; then
       break
     fi
 
@@ -131,9 +131,30 @@ if [[ "$command" == "find" ]]; then
     cd "$worktree"
     pwd
   else
-    echo "Error: worktree $worktree not found."
+    echo "Error: worktree $worktree not found"
     exit 1
   fi
+
+  exit 0
+fi
+
+if [[ "$command" == "root" ]]; then
+  attempts=10
+  while ! [[ -f ".gitdefaultbranch" ]]; do
+    if [[ $attempts -lt 1 ]]; then
+      break
+    fi
+
+    cd ../
+    attempts=$((attempts - 1))
+  done
+
+  if ! [[ -f ".gitdefaultbranch" ]]; then
+    echo "Error: cannot find .gitdefaultbranch"
+    exit 1
+  fi
+
+  pwd
 
   exit 0
 fi

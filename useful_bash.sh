@@ -19,6 +19,34 @@ function send_fd_results_to_quickfix_and_open() {
   eval $quickfix_formatted_command
 }
 
+function worktree_wrapper() {
+  if [[ -z "$1" ]]; then
+    return
+  fi
+
+  if [[ "$1" == "use" ]]; then
+    selected="$2"
+
+    if [[ -z "$2" ]]; then
+      worktree_root="$(worktree root)"
+      cd "$worktree_root"
+      selected=$(fd --path-separator "" -td -d1 | fzf)
+    fi
+
+    path=$(worktree find "$selected")
+
+    if [[ -d "$path" ]]; then
+      cd "$path"
+    else
+      echo "Error: worktree $2 not found."
+    fi
+
+    return
+  fi
+
+  worktree $@
+}
+
 alias vc='cd ~/.config/nvim && vim'
 alias vim='nvim'
 alias vimdiff="nvim -d"
@@ -38,6 +66,7 @@ alias ff='send_fd_results_to_quickfix_and_open'
 alias fdh='fd --hidden'
 alias vf='fd --format {}:1:1:{/}'
 alias lg='lazygit'
+alias worktree='worktree_wrapper'
 
 # rg ENV -l  | xargs sed -i 's/ENV/something/' for find and replace
 # rg -p foo | less -R for paging rg results
