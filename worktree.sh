@@ -8,7 +8,7 @@ set -e
 function usage() {
   echo "Usage: ./worktree.sh [OPTION]..."
   echo "Arguments:"
-  echo "  setup url        use URL as repository url. Initialize repository with default worktree"
+  echo "  init url         use URL as repository url. Initialize repository with default worktree"
   echo "  add name source  use NAME as branch name. Add worktree with NAME. Use SOURCE as source branch name (defaults to default branch for repository)"
   echo "  find name        use NAME as worktree name. Print path of worktree if found"
   echo "  root             Print path of worktree root"
@@ -21,7 +21,7 @@ if [[ -z "$1" ]]; then
   exit 1
 fi
 
-if [[ -n "$1" && ("$1" == "setup" || "$1" == "add" || "$1" == "find" || "$1" == "root") ]]; then
+if [[ -n "$1" && ("$1" == "init" || "$1" == "add" || "$1" == "find" || "$1" == "root") ]]; then
   command="$1"
 fi
 
@@ -30,7 +30,7 @@ if [[ -z "$command" ]]; then
   exit 1
 fi
 
-if [[ "$command" == "setup" ]]; then
+if [[ "$command" == "init" ]]; then
   url="$2"
 
   if [[ -z "$url" ]]; then
@@ -47,15 +47,17 @@ if [[ "$command" == "setup" ]]; then
   fi
 
   mkdir $folder
-  pushd $folder
+  cd $folder
 
   git clone --bare "$url"
-  pushd $bare_folder
+  cd $bare_folder
 
   git config remote.origin.fetch "+refs/heads/*:refs/remotes/origin/*"
+  git fetch
 
   default_branch=$(git remote show "$url" | sed -n '/HEAD branch/s/.*: //p' | xargs echo)
-  git worktree add ../"$default_branch" "$default_branch"
+  git worktree add ../$default_branch $default_branch
+  git branch --set-upstream-to=origin/$default_branch $default_branch
 
   cd ../
 
@@ -104,7 +106,11 @@ if [[ "$command" == "add" ]]; then
   bare_folder=$(fd -td -d1 -1 .git)
   cd "$bare_folder"
 
-  git worktree add -b "$branch" "../$branch" "$source_branch"
+  if [[ $(git branch --all | rg -q -F "$branch") -eq 0 ]]; then
+    git worktree add "../$branch" "$branch" # ignore source branch arg here
+  else
+    git worktree add -b "$branch" "../$branch" "$source_branch"
+  fi
 
   exit 0
 fi
