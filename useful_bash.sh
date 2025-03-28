@@ -74,6 +74,8 @@ alias worktree='worktree_wrapper'
 # rg --hidden --glob '!.git' --glob '!.vs' --glob '!vendor' 2.7.3 for including hidden files with ignored globs
 # rg --hidden --glob '!.git' --glob '!.vs' --glob '!vendor' --glob '!.bin' --glob '!node_modules' 2.7.3 for including hidden files with ignored globs
 
+PROMPT_DIRTRIM=1
+
 eval "$(fzf --bash)"
 export EDITOR=nvim
 
