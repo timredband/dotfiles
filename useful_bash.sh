@@ -30,7 +30,14 @@ function worktree_wrapper() {
 
     if [[ -z "$2" ]]; then
       worktree_root="$(worktree root)"
+
+      if [[ $? -eq 1 ]]; then
+        echo "Error: can't find worktree root"
+        return
+      fi
+
       cd "$worktree_root"
+
       selected=$(fd --path-separator "" -td -d1 | fzf)
     fi
 
@@ -38,6 +45,7 @@ function worktree_wrapper() {
 
     if [[ -d "$path" ]]; then
       cd "$path"
+      echo "switched to worktree $selected"
     else
       echo "Error: worktree $2 not found."
     fi

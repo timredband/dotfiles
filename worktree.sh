@@ -14,6 +14,7 @@ function usage() {
   echo "  root             print path of worktree root"
   echo "  remove           remove worktree"
   echo "  list             list worktrees"
+  echo "  bare             print path of bare repository"
 }
 
 command=""
@@ -23,7 +24,7 @@ if [[ -z "$1" ]]; then
   exit 1
 fi
 
-if [[ -n "$1" && ("$1" == "init" || "$1" == "add" || "$1" == "find" || "$1" == "root" || "$1" == "remove" || "$1" == "list") ]]; then
+if [[ -n "$1" && ("$1" == "init" || "$1" == "add" || "$1" == "find" || "$1" == "root" || "$1" == "remove" || "$1" == "list" || "$1" == "bare") ]]; then
   command="$1"
 fi
 
@@ -72,12 +73,15 @@ fi
 if [[ "$command" == "add" ]]; then
   branch="$2"
 
-  if [[ -z "$branch" ]]; then
-    usage
+  set +e
+
+  worktree_root=$(worktree root)
+
+  if [[ $? -eq 1 ]]; then
+    echo "Error: cannot find worktree root"
     exit 1
   fi
 
-  worktree_root=$(worktree root)
   cd "$worktree_root"
 
   source_branch=$(head -n 1 .gitdefaultbranch)
@@ -86,30 +90,23 @@ if [[ "$command" == "add" ]]; then
     source_branch="$3"
   fi
 
-  set +e
+  bare_folder=$(worktree bare)
+  cd "$bare_folder"
 
-  # find bare folder
-  fd -td -d1 -1 -q .git
+  selected=""
+  if [[ -z "$branch" ]]; then
+    selected=$(git branch --all | fzf | tr -d '[:space:]')
 
-  if [[ $? -eq 1 ]]; then
-    echo "Error: can't find bare folder"
-    exit 1
+    if [[ -z "$selected" ]]; then
+      echo "Error: no branch selected"
+      exit 1
+    fi
+
+    selected="${selected##*/}"
   fi
 
-  set -e
-
-  bare_folder=$(fd -td -d1 -1 .git)
-  cd "$bare_folder"
-  pwd
-
-  set +e
-  git branch --all | rg -q -w -F "$branch"
-  found=$?
-
-  set -e
-
-  if [[ $found -eq 0 ]]; then
-    git worktree add "../$branch" "$branch" # ignore source branch arg
+  if [[ -n "$selected" ]]; then
+    git worktree add "../$selected" "$selected"
   else
     git worktree add -b "$branch" "../$branch" "$source_branch"
   fi
@@ -125,7 +122,16 @@ if [[ "$command" == "find" ]]; then
     exit 1
   fi
 
+  set +e
+
   worktree_root=$(worktree root)
+
+  if [[ $? -eq 1 ]]; then
+    echo "Error: cannot find worktree root"
+    exit 1
+  fi
+
+  cd "$worktree_root"
 
   if [[ -d "$worktree" ]]; then
     cd "$worktree"
@@ -160,25 +166,29 @@ if [[ "$command" == "root" ]]; then
 fi
 
 if [[ "$command" == "remove" ]]; then
-  worktree_root="$(worktree root)"
+  set +e
+
+  worktree_root=$(worktree root)
+
+  if [[ $? -eq 1 ]]; then
+    echo "Error: cannot find worktree root"
+    exit 1
+  fi
+
   cd "$worktree_root"
 
   selected=$(fd --path-separator "" -td -d1 | fzf)
 
-  set +e
-
-  # find bare folder
-  fd -td -d1 -1 -q .git
+  bare_folder=$(worktree bare)
 
   if [[ $? -eq 1 ]]; then
     echo "Error: can't find bare folder"
     exit 1
   fi
 
-  set -e
-
-  bare_folder=$(fd -td -d1 -1 .git)
   cd "$bare_folder"
+
+  set -e
 
   if [[ -n "$selected" ]]; then
     git worktree remove "$selected"
@@ -191,9 +201,46 @@ if [[ "$command" == "remove" ]]; then
 fi
 
 if [[ "$command" == "list" ]]; then
+  set +e
+
   worktree_root=$(worktree root)
+
+  if [[ $? -eq 1 ]]; then
+    echo "Error: cannot find worktree root"
+    exit 1
+  fi
+
   cd "$worktree_root"
+
+  set -e
+
   fd --color never --path-separator "" -td -d1
 
   exit 0
+fi
+
+if [[ "$command" == "bare" ]]; then
+  set +e
+
+  worktree_root=$(worktree root)
+
+  if [[ $? -eq 1 ]]; then
+    echo "Error: cannot find worktree root"
+    exit 1
+  fi
+
+  cd $worktree_root
+
+  # find bare folder
+  fd -td -d1 -1 -q .git
+
+  if [[ $? -eq 1 ]]; then
+    echo "Error: can't find bare folder"
+    exit 1
+  fi
+
+  set -e
+
+  bare_folder=$(fd --path-separator "" -td -d1 -1 .git)
+  echo "$bare_folder"
 fi
