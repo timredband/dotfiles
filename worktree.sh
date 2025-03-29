@@ -7,8 +7,8 @@ function usage() {
   echo "Usage: ./worktree.sh command [OPTION]"
   echo "Commands:"
   echo "  init url             use URL as repository url. Initialize repository with default worktree"
-  echo "  add [name] [source]  use NAME as branch name. Add worktree with NAME. Use SOURCE as source branch name (defaults to default branch for repository)"
-  echo "  find                 print path of worktree"
+  echo "  add [name] [source]  use NAME as branch name. Add worktree with NAME. Use SOURCE as source branch name (defaults to default branch for repository). If NAME omitted use fzf"
+  echo "  find [name]          use NAME as worktree name. If NAME omitted use fzf"
   echo "  root                 print path of worktree root"
   echo "  remove               remove worktree"
   echo "  list                 list worktrees"
@@ -126,7 +126,11 @@ if [[ "$command" == "find" ]]; then
 
   cd "$worktree_root"
 
-  selected=$(fd --path-separator "" -td -d1 | fzf)
+  selected="$2"
+
+  if [[ -z "$selected" ]]; then
+    selected=$(fd --path-separator "" -td -d1 | fzf)
+  fi
 
   if [[ -d "$selected" ]]; then
     cd "$selected"
