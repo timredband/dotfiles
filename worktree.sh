@@ -3,19 +3,16 @@
 set -e
 set -o pipefail
 
-# check fetch configuration
-# git config --local --get-all remote.origin.fetch
-
 function usage() {
-  echo "Usage: ./worktree.sh [OPTION]..."
-  echo "Arguments:"
-  echo "  init url         use URL as repository url. Initialize repository with default worktree"
-  echo "  add name source  use NAME as branch name. Add worktree with NAME. Use SOURCE as source branch name (defaults to default branch for repository)"
-  echo "  find name        use NAME as worktree name. Print path of worktree if found"
-  echo "  root             print path of worktree root"
-  echo "  remove           remove worktree"
-  echo "  list             list worktrees"
-  echo "  bare             print path of bare repository"
+  echo "Usage: ./worktree.sh command [OPTION]"
+  echo "Commands:"
+  echo "  init url             use URL as repository url. Initialize repository with default worktree"
+  echo "  add [name] [source]  use NAME as branch name. Add worktree with NAME. Use SOURCE as source branch name (defaults to default branch for repository)"
+  echo "  find                 print path of worktree"
+  echo "  root                 print path of worktree root"
+  echo "  remove               remove worktree"
+  echo "  list                 list worktrees"
+  echo "  bare                 print path of bare repository"
 }
 
 command=""
@@ -120,13 +117,6 @@ if [[ "$command" == "add" ]]; then
 fi
 
 if [[ "$command" == "find" ]]; then
-  worktree="$2"
-
-  if [[ -z "$worktree" ]]; then
-    usage
-    exit 1
-  fi
-
   worktree_root=$(worktree root) || found=$?
 
   if [[ $found -eq 1 ]]; then
@@ -136,11 +126,13 @@ if [[ "$command" == "find" ]]; then
 
   cd "$worktree_root"
 
-  if [[ -d "$worktree" ]]; then
-    cd "$worktree"
+  selected=$(fd --path-separator "" -td -d1 | fzf)
+
+  if [[ -d "$selected" ]]; then
+    cd "$selected"
     pwd
   else
-    echo "Error: worktree $worktree not found"
+    echo "Error: worktree $selected not found"
     exit 1
   fi
 
