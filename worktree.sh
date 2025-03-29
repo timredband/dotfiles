@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 set -e
+set -o pipefail
 
 # check fetch configuration
 # git config --local --get-all remote.origin.fetch
@@ -73,11 +74,9 @@ fi
 if [[ "$command" == "add" ]]; then
   branch="$2"
 
-  set +e
+  worktree_root=$(worktree root) || found=$?
 
-  worktree_root=$(worktree root)
-
-  if [[ $? -eq 1 ]]; then
+  if [[ $found -eq 1 ]]; then
     echo "Error: cannot find worktree root"
     exit 1
   fi
@@ -90,7 +89,13 @@ if [[ "$command" == "add" ]]; then
     source_branch="$3"
   fi
 
-  bare_folder=$(worktree bare)
+  bare_folder=$(worktree bare) || found=$?
+
+  if [[ $found -eq 1 ]]; then
+    echo "Error: can't find bare folder"
+    exit 1
+  fi
+
   cd "$bare_folder"
 
   selected=""
@@ -122,11 +127,9 @@ if [[ "$command" == "find" ]]; then
     exit 1
   fi
 
-  set +e
+  worktree_root=$(worktree root) || found=$?
 
-  worktree_root=$(worktree root)
-
-  if [[ $? -eq 1 ]]; then
+  if [[ $found -eq 1 ]]; then
     echo "Error: cannot find worktree root"
     exit 1
   fi
@@ -166,11 +169,9 @@ if [[ "$command" == "root" ]]; then
 fi
 
 if [[ "$command" == "remove" ]]; then
-  set +e
+  worktree_root=$(worktree root) || found=$?
 
-  worktree_root=$(worktree root)
-
-  if [[ $? -eq 1 ]]; then
+  if [[ $found -eq 1 ]]; then
     echo "Error: cannot find worktree root"
     exit 1
   fi
@@ -179,16 +180,14 @@ if [[ "$command" == "remove" ]]; then
 
   selected=$(fd --path-separator "" -td -d1 | fzf)
 
-  bare_folder=$(worktree bare)
+  bare_folder=$(worktree bare) || found=$?
 
-  if [[ $? -eq 1 ]]; then
+  if [[ $found -eq 1 ]]; then
     echo "Error: can't find bare folder"
     exit 1
   fi
 
   cd "$bare_folder"
-
-  set -e
 
   if [[ -n "$selected" ]]; then
     git worktree remove "$selected"
@@ -201,18 +200,14 @@ if [[ "$command" == "remove" ]]; then
 fi
 
 if [[ "$command" == "list" ]]; then
-  set +e
+  worktree_root=$(worktree root) || found=$?
 
-  worktree_root=$(worktree root)
-
-  if [[ $? -eq 1 ]]; then
+  if [[ $found -eq 1 ]]; then
     echo "Error: cannot find worktree root"
     exit 1
   fi
 
   cd "$worktree_root"
-
-  set -e
 
   fd --color never --path-separator "" -td -d1
 
@@ -220,11 +215,9 @@ if [[ "$command" == "list" ]]; then
 fi
 
 if [[ "$command" == "bare" ]]; then
-  set +e
+  worktree_root=$(worktree root) || found=$?
 
-  worktree_root=$(worktree root)
-
-  if [[ $? -eq 1 ]]; then
+  if [[ $found -eq 1 ]]; then
     echo "Error: cannot find worktree root"
     exit 1
   fi
@@ -232,14 +225,12 @@ if [[ "$command" == "bare" ]]; then
   cd $worktree_root
 
   # find bare folder
-  fd -td -d1 -1 -q .git
+  fd -td -d1 -1 -q .git || found=$?
 
-  if [[ $? -eq 1 ]]; then
+  if [[ $found -eq 1 ]]; then
     echo "Error: can't find bare folder"
     exit 1
   fi
-
-  set -e
 
   bare_folder=$(fd --path-separator "" -td -d1 -1 .git)
   echo "$bare_folder"
