@@ -28,7 +28,7 @@ function worktree_wrapper() {
   if [[ "$1" == "use" ]]; then
     selected="$2"
 
-    if [[ -z "$2" ]]; then
+    if [[ -z "$selected" ]]; then
       worktree_root="$(worktree root)"
 
       if [[ $? -eq 1 ]]; then
@@ -39,6 +39,10 @@ function worktree_wrapper() {
       cd "$worktree_root"
 
       selected=$(fd --path-separator "" -td -d1 | fzf)
+    fi
+
+    if [[ -z "$selected" ]]; then
+      return
     fi
 
     path=$(worktree find "$selected")
