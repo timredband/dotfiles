@@ -8,9 +8,9 @@ function usage() {
   echo "Commands:"
   echo "  init url             use URL as repository url. Initialize repository with default worktree"
   echo "  add [name] [source]  use NAME as branch name. Add worktree with NAME. Use SOURCE as source branch name (defaults to default branch for repository). If NAME omitted use fzf"
-  echo "  find [name]          use NAME as worktree name. If NAME omitted use fzf"
+  echo "  find [name]          use NAME as worktree name. Find worktree with NAME. If NAME omitted use fzf"
   echo "  root                 print path of worktree root"
-  echo "  remove               remove worktree"
+  echo "  remove [name]        use NAME as worktree name. Remove worktree with NAME. If NAME omitted use fzf"
   echo "  list                 list worktrees"
   echo "  bare                 print path of bare repository"
 }
@@ -97,7 +97,7 @@ if [[ "$command" == "add" ]]; then
 
   selected=""
   if [[ -z "$branch" ]]; then
-    selected=$(git branch --all | fzf | tr -d '[:space:]')
+    selected=$(git branch --all | fzf | tr -d '[:space:]*')
 
     if [[ -z "$selected" ]]; then
       echo "Error: no branch selected"
@@ -174,7 +174,16 @@ if [[ "$command" == "remove" ]]; then
 
   cd "$worktree_root"
 
-  selected=$(fd --path-separator "" -td -d1 | fzf)
+  selected="$2"
+
+  if [[ -z "$selected" ]]; then
+    selected=$(fd --path-separator "" -td -d1 | fzf)
+
+    if [[ -z "$selected" ]]; then
+      echo "Error: no worktree selected"
+      exit 1
+    fi
+  fi
 
   bare_folder=$(worktree bare) || found=$?
 

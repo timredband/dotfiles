@@ -60,6 +60,14 @@ function worktree_wrapper() {
   worktree $@
 }
 
+function _worktree_completion() {
+  local subcommand
+  subcommand="${COMP_WORDS[COMP_CWORD]}"
+  COMPREPLY=($(compgen -W "init add find root remove list bare use" -- "$subcommand"))
+}
+
+complete -F _worktree_completion worktree
+
 alias vc='cd ~/.config/nvim && vim'
 alias vim='nvim'
 alias vimdiff="nvim -d"
