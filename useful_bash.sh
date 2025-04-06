@@ -49,7 +49,7 @@ function worktree_wrapper() {
 
     if [[ -d "$path" ]]; then
       cd "$path"
-      echo "switched to worktree $selected"
+      echo "Switched to worktree $selected"
     else
       echo "Error: worktree $2 not found."
     fi
