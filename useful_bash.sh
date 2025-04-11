@@ -19,7 +19,7 @@ function send_fd_results_to_quickfix_and_open() {
   eval $quickfix_formatted_command
 }
 
-function worktree_wrapper() {
+function _worktree() {
   if [[ -z "$1" ]]; then
     worktree
     return
@@ -60,6 +60,7 @@ function worktree_wrapper() {
   worktree $@
 }
 
+# add to .bash_completion *****************
 function _worktree_completion() {
   local subcommand
   subcommand="${COMP_WORDS[COMP_CWORD]}"
@@ -67,6 +68,7 @@ function _worktree_completion() {
 }
 
 complete -F _worktree_completion worktree
+# *****************
 
 alias vc='cd ~/.config/nvim && vim'
 alias vim='nvim'
@@ -87,7 +89,7 @@ alias ff='send_fd_results_to_quickfix_and_open'
 alias fdh='fd --hidden'
 alias vf='fd --format {}:1:1:{/}'
 alias lg='lazygit'
-alias worktree='worktree_wrapper'
+alias worktree='_worktree'
 
 # rg ENV -l  | xargs sed -i 's/ENV/something/' for find and replace
 # rg -p foo | less -R for paging rg results
