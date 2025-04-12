@@ -239,4 +239,6 @@ if [[ "$command" == "bare" ]]; then
 
   bare_folder=$(fd --path-separator "" -td -d1 -1 .git)
   echo "$bare_folder"
+
+  exit 0
 fi
