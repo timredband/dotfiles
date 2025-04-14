@@ -214,7 +214,11 @@ if [[ "$command" == "list" ]]; then
 
   cd "$worktree_root"
 
-  fd --color never --path-separator "" -td -d1
+  default_branch=$(head -n 1 .gitdefaultbranch)
+
+  cd "$default_branch"
+
+  git worktree list
 
   exit 0
 fi
