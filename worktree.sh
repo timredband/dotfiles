@@ -57,9 +57,10 @@ if [[ "$command" == "init" ]]; then
   git fetch
 
   default_branch=$(git remote show "$url" | sed -n '/HEAD branch/s/.*: //p' | xargs echo)
+
   git worktree add ../$default_branch $default_branch
-  git branch | rg -v "$default_branch" | xargs git branch -D
   git branch --set-upstream-to=origin/$default_branch $default_branch
+  git branch | rg -v "$default_branch" | xargs git branch -D || echo "no branches to purge"
 
   cd ../
 
