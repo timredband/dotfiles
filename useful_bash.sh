@@ -4,6 +4,8 @@ export GOPATH=$HOME/go
 # for wsl browser links
 export BROWSER="$HOME/links/chrome.exe"
 
+export MANPAGER="nvim +Man!"
+
 function vimgrep_and_open() {
   rg -i --vimgrep "$@" | nvim -q -
 }
@@ -101,7 +103,9 @@ PROMPT_DIRTRIM=1
 eval "$(fzf --bash)"
 export EDITOR=nvim
 
-export PATH=~/.nvm/versions/node/v20.9.0/bin:$PATH
+export USE_GKE_GCLOUD_AUTH_PLUGIN=True
+export PATH=~/.nvm/versions/node/v22.14.0/bin:$PATH
+export NODE_EXTRA_CA_CERTS=$HOME/ca-bundle.crt
 
 export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"                   # This loads nvm
@@ -110,7 +114,8 @@ export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || pr
 eval "$(zoxide init bash)"
 
 source ~/git-prompt.sh
-export PS1="\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[1;31m\]\$(__git_ps1 \"(%s)\")\[\033[00m\]\$ "
+# export PS1="\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[1;31m\]\$(__git_ps1 \"(%s)\")\[\033[00m\]\$ "
+export PS1="\[\033[01;34m\]\w\[\033[1;31m\]\$(__git_ps1 \"(%s)\")\[\033[00m\]\$ "
 
 # Color mapping
 # grey='\[\033[1;30m\]'
