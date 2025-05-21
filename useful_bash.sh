@@ -88,6 +88,7 @@ alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias bat='bat --paging=never'
 alias xclip="xclip -selection c"
 alias ff='send_fd_results_to_quickfix_and_open'
+alias fdf='fd --format {}:1:1:{/}'
 alias fdh='fd --hidden'
 alias vf='fd --format {}:1:1:{/}'
 alias lg='lazygit'
