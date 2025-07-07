@@ -79,7 +79,7 @@ alias kx='SHELL= kubectx'
 alias ks='SHELL= kubens'
 alias gs='git switch "$(git branch --all | fzf | sed s,remotes\/origin\/,, | tr -d '[:space:]')"'
 alias dev='cd /mnt/c/dev'
-alias rg='rg -i'
+alias rg="rg -i --glob '!*.git'"
 alias rgh="rg -i --hidden --glob '!.git' --glob '!.vs' --glob '!vendor' --glob '!.bin' --glob '!node_modules' --glob '!package-lock.json'"
 alias vg='rg -i --vimgrep'
 alias vgg='vimgrep_and_open'

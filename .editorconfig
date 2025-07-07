@@ -11,5 +11,5 @@ insert_final_newline = true
 tab_width = 4
 trim_trailing_whitespace = true
 
-[*.{yml,yaml,json,sh,bash,bats,tf,csproj,snap,md}]
+[*.{css,yml,yaml,json,sh,bash,bats,tf,csproj,snap,md}]
 indent_size = 2
